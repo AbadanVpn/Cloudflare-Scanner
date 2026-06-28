@@ -3,7 +3,7 @@ name: Build and Release Desktop EXE
 on:
   push:
     tags:
-      - 'v*' # زمانی که تگی مثل v1.0.0 پش شود، این اکشن اجرا می‌شود
+      - 'v*'
 
 jobs:
   build-windows:
